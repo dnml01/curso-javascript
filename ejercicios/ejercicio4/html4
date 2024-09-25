@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago de Empleados</title>
+    <script src="java4.js" defer></script>
+</head>
+<body>
+    <h1>Cálculo de Pago de Empleados</h1>
+
+    <!-- Botón para calcular el pago -->
+    <button onclick="calcularPagoEmpleados()">Calcular Pago</button>
+
+    <!-- Mostrar el resultado -->
+    <div id="resultado"></div>
+</body>
+</html>

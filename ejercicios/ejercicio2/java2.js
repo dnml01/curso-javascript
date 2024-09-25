@@ -1,5 +1,5 @@
 function calcularPromedio() {
-    // Obtener las notas ingresadas
+    // Obtener las notas
     var nota1 = document.getElementById("nota1").value;
     var nota2 = document.getElementById("nota2").value;
     var nota3 = document.getElementById("nota3").value;
@@ -7,7 +7,7 @@ function calcularPromedio() {
     // Calcular el promedio 
     var promedio = (nota1 * 0.40) + (nota2 * 0.30) + (nota3 * 0.30);
 
-    // Mostrar el resultado según el promedio
+    // Mostrar el resultado 
     if (promedio < 3.95) {
         alert("El promedio es: " + promedio + ". El alumno ha reprobado.");
     } else if (promedio >= 3.95 && promedio < 4.95) {

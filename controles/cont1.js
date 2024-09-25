@@ -1,5 +1,5 @@
 function contarCaracteres() {
-    // Obtener el valor ingresado por el usuario
+    // Obtener el valor 
     var oracion = document.getElementById("oracion").value;
 
     // Contar los caracteres

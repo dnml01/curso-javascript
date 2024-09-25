@@ -1,14 +1,14 @@
 function contarVocales() {
-     // Obtener el texto ingresado en minúsculas
+     // Obtener el texto 
     var cadena = document.getElementById("cadena").value.toLowerCase(); 
-    // Objeto para contar las vocales
+    // contar las vocales
     var vocales = { a: 0, e: 0, i: 0, o: 0, u: 0 };  
 
-    // Recorrer cada carácter de la cadena
+    // carácter de la cadena
     for (var i = 0; i < cadena.length; i++) {
         var letra = cadena[i];
 
-        // Verificar si la letra es una vocal y contarla
+        // Verificar si la letra es una vocal
         if (letra === 'a') {
             vocales.a++;
         } else if (letra === 'e') {
@@ -22,7 +22,7 @@ function contarVocales() {
         }
     }
 
-    // Mostrar el resultado en la página
+    // Mostrar el resultado 
     var resultado = `
         <p>Vocal 'a': ${vocales.a}</p>
         <p>Vocal 'e': ${vocales.e}</p>
@@ -31,5 +31,5 @@ function contarVocales() {
         <p>Vocal 'u': ${vocales.u}</p>
     `;
 
-    document.getElementById("resultado").innerHTML = resultado;  // Mostrar el conteo en el HTML
+    document.getElementById("resultado").innerHTML = resultado;  
 }
