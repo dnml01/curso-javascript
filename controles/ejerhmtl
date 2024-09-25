@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Caracteres</title>
+    <script src="cont1.js" defer></script>
+</head>
+<body>
+    <h1>Contador de Caracteres</h1>
+
+    <!-- Campo para ingresar la oración o palabra -->
+    <label for="oracion">Ingresa una palabra u oración:</label>
+    <input type="text" id="oracion" placeholder="Escribe aquí"><br><br>
+
+    <!-- Botón para ejecutar la función -->
+    <button onclick="contarCaracteres()">Contar Caracteres</button>
+
+    <!-- Donde se mostrará el resultado -->
+    <p id="resultado"></p>
+</body>
+</html>

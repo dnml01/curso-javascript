@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificación de Contraseña</title>
+    <script src="cont2.js" defer></script>
+</head>
+<body>
+    <h1>Verificar Contraseña</h1>
+
+    <!-- Campo para ingresar la contraseña -->
+    <label for="contrasena">Ingresa una contraseña:</label>
+    <input type="password" id="contrasena" placeholder="Contraseña"><br><br>
+
+    <!-- Botón para ejecutar la función -->
+    <button onclick="verificarContrasena()">Verificar Contraseña</button>
+
+    <!-- Donde se mostrará el resultado -->
+    <p id="resultado"></p>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contar Vocales</title>
+    <script src="reto1.js" defer></script>
+</head>
+<body>
+    <h1>Contar Vocales en una Cadena de Texto</h1>
+
+    <!-- Campo de texto para que el usuario ingrese una cadena -->
+    <label for="cadena">Ingresa una cadena de texto:</label>
+    <input type="text" id="cadena" placeholder="Escribe aquí tu texto"><br><br>
+
+    <!-- Botón para ejecutar la función -->
+    <button onclick="contarVocales()">Contar Vocales</button>
+
+    <!-- Mostrar los resultados -->
+    <div id="resultado"></div>
+</body>
+</html>
